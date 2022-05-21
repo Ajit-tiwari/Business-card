@@ -1,13 +1,184 @@
-body {
+body{
+  background-color:rgb(2, 33, 37);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card{
+  max-width: 500px;
+  padding: 10px 10px;
+  background-color: rgb(7, 121, 121);
+  color: white;
+  margin: 30px auto;
+  padding: 0px 0px;
+  display: flex;
+  flex-direction: column;
 }
+
+.Name {
+  margin: 0;
+  /* display: block; */
+  padding: 0px auto;
+  background-color: rgb(7, 2, 39);
+}
+
+.Name > h1, h2 {
+  color: rgb(223, 226, 6);
+
+  margin: 0;
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.Name>h1 {
+  margin-top: 0px;
+}
+
+.Name>h2 {
+  color: aliceblue;
+}
+
+.name-button{
+  justify-content: space-evenly;
+  margin: 0;
+  margin-top: 10px;
+  text-align: center;
+  /* align-content: space-between; */
+  display: flex;
+}
+
+.name-button > button {
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  
+  
+  margin: 0;
+}
+
+.email > img {
+  width: 30px;
+  padding: 0px 0px 0px 40px;
+}
+
+.email > h2 {
+  margin-top: 12px;
+  color: black;
+}
+
+.email{
+  background-color: white;  
+}
+
+.project-demo{
+  background-color: white;
+  
+}
+
+.project-demo >img{
+  width: 40px;
+  padding: 0px 0px 0px 20px;
+}
+
+.project-demo > h2 {
+  margin-top: 12px;
+  color: black;
+}
+
+
+.Name > h1{
+  margin-top: 10px;
+}
+
+.img{
+  margin: 0;
+  width: 100%;
+  
+}
+
+.about-component {
+  padding: 0px 10px;
+}
+
+.about-component > h1, p {
+  margin: 0;
+}
+
+.about-component > h1 {
+  margin-top: 15px;
+}
+
+.about-component > p {
+  margin-top: 3px;
+  text-align: justify;
+  font-family: 'Merienda', cursive;
+}
+
+.skill-component {
+  padding: 0px 0px 0px 10px;
+  margin: 0;
+}
+
+.skill-component > h1 {
+  margin: 0;
+  margin-top: 15px;
+}
+
+.skill-component > ul {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0px 30px;
+  margin-bottom: 20px;
+
+  
+}
+
+.skill-component > ul > li {
+  font-family: 'Merienda', cursive;
+  margin-right: 30px;
+}
+
+.footer{
+  background-color: rgb(10, 22, 22);
+  height: 40px;
+  display: flex;
+  justify-content:center;
+  
+}
+
+
+.fa {
+  font-size: 30px;
+  padding: 5px;
+  margin: 0px 30px;
+}
+
+.fa-linkedin{
+  color: rgb(0, 110, 255);
+}
+
+.fa-instagram{
+  color: rgb(223, 10, 81);
+}
+
+.fa-twitter{
+  color: rgb(0, 207, 214);
+}
+
+.fa-github{
+  color: rgb(236, 245, 245);
+}
+
+.fa-code{
+  color: rgb(140, 201, 201);
+}
+
+.about-component > h1, .skill-component > h1 {
+  font-family: 'Cinzel', serif;
+}
+
